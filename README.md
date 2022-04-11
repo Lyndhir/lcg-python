@@ -1,6 +1,6 @@
 # Linear Congruential Generator (LCG) in Python
 
-For quantitative applications such as numerical simulations, it is convenient to have full control over the Pseudo-Random Number Generator you choose to use. For this, I made a simple implementation of the Congruential Linear Generator, a simple and reliable algorithm.
+For quantitative applications such as numerical simulations, it is convenient to have full control over the Pseudo-Random Number Generator we choose to use. For this reason, I made a basic implementation of the Congruential Linear Generator, a simple and reliable algorithm.
 
 
 ## Brief Theoretical Background
