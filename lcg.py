@@ -9,7 +9,7 @@ def linear_congruential_generator(m: int, a: int, c: int, seed: int) -> Iterator
     :param a: the multiplier, a non-negative integer constant < m
     :param c: the increment, a non-negative integer constant < m
     :param seed: the starting state of the LCG. It is used to initialize the pseudo-random number sequence
-    :return: a non-negative integer in [0, m-1] representing the n-th state of the generator
+    :return: a non-negative integer in [0, m-1] representing the i-th state of the generator
     """
     x = seed
     while True:
@@ -19,10 +19,10 @@ def linear_congruential_generator(m: int, a: int, c: int, seed: int) -> Iterator
 
 def rand_float_samples(n_samples: int, seed: int = 123_456_789) -> list[float]:
     """
-    This function uses an LCG to output a sequence of pseudo-random float numbers from the uniform distribution on [0, 1)
+    This function uses an LCG to output a sequence of pseudo-random floats from the uniform distribution on [0, 1)
     :param n_samples: the number of pseudo-random floats to generate
     :param seed: the starting state of the LCG. It is used to initialize the pseudo-random number sequence
-    :return: a list of length n_samples containing the pseudo-random numbers generated
+    :return: a list of length n_samples containing the generated pseudo-random numbers
     """
     m: int = 2_147_483_648
     a: int = 594_156_893
