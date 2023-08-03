@@ -28,8 +28,8 @@ Where $u_i$ is a real pseudo-random number from the uniform distribution on $(0,
 
 
 ## About this Repo
-This small project explores a simple implementation of the LCG as a Python generator. All the code is contained in the lcg.py file and is pretty straightforward.
+This small project explores a simple implementation of the LCG as a Python generator. All the code is contained in the `lcg.py` file and is pretty straightforward.
 
-A detailed list of good values for the LCG constants m and a can be found at:
+A detailed list of good values for the LCG constants `m` and `a` can be found at:
 
 *L’ecuyer, Pierre. "Tables of linear congruential generators of different sizes and good lattice structure." Mathematics of Computation 68.225 (1999): 249-260.*
