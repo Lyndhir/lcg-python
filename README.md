@@ -8,7 +8,7 @@ An LCG is a method for generating real non-negative pseudo-random numbers from t
 
 First, an LCG produces a sequence of non-negative integers called *states* according to the recurring relation
 
-$$x_i = (a * x_{i-1} + c) \ mod \ m \qquad with \ i = \\{0, 1, ...\\}$$
+$$x_i = (a \cdot x_{i-1} + c) \ mod \ m \qquad with \ i = \\{0, 1, ...\\}$$
 
 Where
 * $m > 0$ is the *modulus*; mod m stands for "modulo m", which means you divide by m and take the remainder.
